@@ -1,0 +1,202 @@
+[
+  {
+    "local_file": "admin/candidate_note_data.php",
+    "example_file": "admin/candidate_note_data.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "admin/candidate_status_data.php",
+    "example_file": "admin/candidate_status_data.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "admin/config.php",
+    "example_file": "admin/config.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "admin/map.php",
+    "example_file": "admin/map.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "admin/phpmailer/smtp/get_oauth_token.php",
+    "example_file": "admin/phpmailer/smtp/get_oauth_token.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "admin/PHPMailer-master/get_oauth_token.php",
+    "example_file": "admin/PHPMailer-master/get_oauth_token.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "admin_blog/include/config.php",
+    "example_file": "admin_blog/include/config.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "admin_blog/map.php",
+    "example_file": "admin_blog/map.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "api/sebi-audit/api_helper.php",
+    "example_file": "api/sebi-audit/api_helper.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "brand-ambassador/thankyou.php",
+    "example_file": "brand-ambassador/thankyou.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "config.php",
+    "example_file": "config.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "easebuzz.php",
+    "example_file": "easebuzz.example.php",
+    "credential_literals_removed": 4
+  },
+  {
+    "local_file": "google-reviews/fetch-db.php",
+    "example_file": "google-reviews/fetch-db.example.php",
+    "credential_literals_removed": 2
+  },
+  {
+    "local_file": "google-reviews/test.php",
+    "example_file": "google-reviews/test.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "gst_ajax_entityAddre.php",
+    "example_file": "gst_ajax_entityAddre.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "gst_invoice_mail_new.php",
+    "example_file": "gst_invoice_mail_new.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "gst_invoice_new_pdf.php",
+    "example_file": "gst_invoice_new_pdf.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "gst_load_amc_state.php",
+    "example_file": "gst_load_amc_state.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "include/config.php",
+    "example_file": "include/config.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "insert_financial_news.php",
+    "example_file": "insert_financial_news.example.php",
+    "credential_literals_removed": 2
+  },
+  {
+    "local_file": "invoice-test.php",
+    "example_file": "invoice-test.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "lms-api-testing.php",
+    "example_file": "lms-api-testing.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "newapi-multiple-test.php",
+    "example_file": "newapi-multiple-test.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "newapi-test.php",
+    "example_file": "newapi-test.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "onlinenews.php",
+    "example_file": "onlinenews.example.php",
+    "credential_literals_removed": 2
+  },
+  {
+    "local_file": "phpmailer/smtp/get_oauth_token.php",
+    "example_file": "phpmailer/smtp/get_oauth_token.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "PHPMailer-master/get_oauth_token.php",
+    "example_file": "PHPMailer-master/get_oauth_token.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "phpmailer-old/get_oauth_token.php",
+    "example_file": "phpmailer-old/get_oauth_token.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "response.php",
+    "example_file": "response.example.php",
+    "credential_literals_removed": 2
+  },
+  {
+    "local_file": "rvm-include/config.php",
+    "example_file": "rvm-include/config.example.php",
+    "credential_literals_removed": 0
+  },
+  {
+    "local_file": "rvm-include/sfa_config.php",
+    "example_file": "rvm-include/sfa_config.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "software/includes/config.php",
+    "example_file": "software/includes/config.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "software/PHPMailer-master/get_oauth_token.php",
+    "example_file": "software/PHPMailer-master/get_oauth_token.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "software/submit_form.php",
+    "example_file": "software/submit_form.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "software/thanks.php",
+    "example_file": "software/thanks.example.php",
+    "credential_literals_removed": 2
+  },
+  {
+    "local_file": "survey/config.php",
+    "example_file": "survey/config.example.php",
+    "credential_literals_removed": 1
+  },
+  {
+    "local_file": "webredvblogadmin19122023/config.php",
+    "example_file": "webredvblogadmin19122023/config.example.php",
+    "credential_literals_removed": 0
+  },
+  {
+    "local_file": "webredvblogadmin19122023/sfa_config.php",
+    "example_file": "webredvblogadmin19122023/sfa_config.example.php",
+    "credential_literals_removed": 2
+  },
+  {
+    "local_file": "webredvcareeradmin19122023/config.php",
+    "example_file": "webredvcareeradmin19122023/config.example.php",
+    "credential_literals_removed": 0
+  },
+  {
+    "local_file": "webredvcareeradmin19122023/sfa_config.php",
+    "example_file": "webredvcareeradmin19122023/sfa_config.example.php",
+    "credential_literals_removed": 2
+  }
+]

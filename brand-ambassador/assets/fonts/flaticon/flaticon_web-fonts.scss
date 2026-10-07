@@ -1,0 +1,269 @@
+$flaticon_web-fonts-font: "flaticon_web-fonts";
+
+@font-face {
+    font-family: $flaticon_web-fonts-font;
+    src: url("./flaticon_web-fonts.ttf?7244ea47cabc5551144dd4ad19318e6b") format("truetype"),
+url("./flaticon_web-fonts.woff?7244ea47cabc5551144dd4ad19318e6b") format("woff"),
+url("./flaticon_web-fonts.woff2?7244ea47cabc5551144dd4ad19318e6b") format("woff2"),
+url("./flaticon_web-fonts.eot?7244ea47cabc5551144dd4ad19318e6b#iefix") format("embedded-opentype"),
+url("./flaticon_web-fonts.svg?7244ea47cabc5551144dd4ad19318e6b#flaticon_web-fonts") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_web-fonts !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_web-fonts-map: (
+    "whatsapp-1": "\f101",
+    "whatsapp-2": "\f102",
+    "facebook-1": "\f103",
+    "facebook-2": "\f104",
+    "instagram-1": "\f105",
+    "instagram-2": "\f106",
+    "twitter": "\f107",
+    "twitter-1": "\f108",
+    "linkedin-1": "\f109",
+    "linkedin-2": "\f10a",
+    "youtube-1": "\f10b",
+    "youtube-2": "\f10c",
+    "youtube-3": "\f10d",
+    "calculator": "\f10e",
+    "calculator-1": "\f10f",
+    "calendar": "\f110",
+    "calendar-1": "\f111",
+    "file": "\f112",
+    "downloading": "\f113",
+    "shopping-cart": "\f114",
+    "shopping-cart-1": "\f115",
+    "credit-card": "\f116",
+    "credit-card-1": "\f117",
+    "healthcare": "\f118",
+    "healthcare-1": "\f119",
+    "evaluation": "\f11a",
+    "risk": "\f11b",
+    "loan": "\f11c",
+    "earnings": "\f11d",
+    "loan-1": "\f11e",
+    "signing": "\f11f",
+    "hand": "\f120",
+    "life-insurance": "\f121",
+    "health-insurance": "\f122",
+    "car-insurance": "\f123",
+    "health-insurance-1": "\f124",
+    "risk-management": "\f125",
+    "rupee": "\f126",
+    "tax": "\f127",
+    "tax-1": "\f128",
+    "retirement": "\f129",
+    "retirement-1": "\f12a",
+    "portfolio": "\f12b",
+    "briefcase": "\f12c",
+    "investment": "\f12d",
+    "profit": "\f12e",
+    "graph": "\f12f",
+    "placeholder": "\f130",
+    "pin": "\f131",
+    "phone-call": "\f132",
+    "call": "\f133",
+    "phone-call-1": "\f134",
+    "gps": "\f135",
+    "email": "\f136",
+    "email-1": "\f137",
+    "mail": "\f138",
+    "right-arrow": "\f139",
+    "right-arrow-1": "\f13a",
+    "down-arrow": "\f13b",
+    "downward-arrow": "\f13c",
+    "right-arrow-2": "\f13d",
+);
+
+.flaticon-whatsapp-1:before {
+    content: map-get($flaticon_web-fonts-map, "whatsapp-1");
+}
+.flaticon-whatsapp-2:before {
+    content: map-get($flaticon_web-fonts-map, "whatsapp-2");
+}
+.flaticon-facebook-1:before {
+    content: map-get($flaticon_web-fonts-map, "facebook-1");
+}
+.flaticon-facebook-2:before {
+    content: map-get($flaticon_web-fonts-map, "facebook-2");
+}
+.flaticon-instagram-1:before {
+    content: map-get($flaticon_web-fonts-map, "instagram-1");
+}
+.flaticon-instagram-2:before {
+    content: map-get($flaticon_web-fonts-map, "instagram-2");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon_web-fonts-map, "twitter");
+}
+.flaticon-twitter-1:before {
+    content: map-get($flaticon_web-fonts-map, "twitter-1");
+}
+.flaticon-linkedin-1:before {
+    content: map-get($flaticon_web-fonts-map, "linkedin-1");
+}
+.flaticon-linkedin-2:before {
+    content: map-get($flaticon_web-fonts-map, "linkedin-2");
+}
+.flaticon-youtube-1:before {
+    content: map-get($flaticon_web-fonts-map, "youtube-1");
+}
+.flaticon-youtube-2:before {
+    content: map-get($flaticon_web-fonts-map, "youtube-2");
+}
+.flaticon-youtube-3:before {
+    content: map-get($flaticon_web-fonts-map, "youtube-3");
+}
+.flaticon-calculator:before {
+    content: map-get($flaticon_web-fonts-map, "calculator");
+}
+.flaticon-calculator-1:before {
+    content: map-get($flaticon_web-fonts-map, "calculator-1");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon_web-fonts-map, "calendar");
+}
+.flaticon-calendar-1:before {
+    content: map-get($flaticon_web-fonts-map, "calendar-1");
+}
+.flaticon-file:before {
+    content: map-get($flaticon_web-fonts-map, "file");
+}
+.flaticon-downloading:before {
+    content: map-get($flaticon_web-fonts-map, "downloading");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon_web-fonts-map, "shopping-cart");
+}
+.flaticon-shopping-cart-1:before {
+    content: map-get($flaticon_web-fonts-map, "shopping-cart-1");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon_web-fonts-map, "credit-card");
+}
+.flaticon-credit-card-1:before {
+    content: map-get($flaticon_web-fonts-map, "credit-card-1");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon_web-fonts-map, "healthcare");
+}
+.flaticon-healthcare-1:before {
+    content: map-get($flaticon_web-fonts-map, "healthcare-1");
+}
+.flaticon-evaluation:before {
+    content: map-get($flaticon_web-fonts-map, "evaluation");
+}
+.flaticon-risk:before {
+    content: map-get($flaticon_web-fonts-map, "risk");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon_web-fonts-map, "loan");
+}
+.flaticon-earnings:before {
+    content: map-get($flaticon_web-fonts-map, "earnings");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon_web-fonts-map, "loan-1");
+}
+.flaticon-signing:before {
+    content: map-get($flaticon_web-fonts-map, "signing");
+}
+.flaticon-hand:before {
+    content: map-get($flaticon_web-fonts-map, "hand");
+}
+.flaticon-life-insurance:before {
+    content: map-get($flaticon_web-fonts-map, "life-insurance");
+}
+.flaticon-health-insurance:before {
+    content: map-get($flaticon_web-fonts-map, "health-insurance");
+}
+.flaticon-car-insurance:before {
+    content: map-get($flaticon_web-fonts-map, "car-insurance");
+}
+.flaticon-health-insurance-1:before {
+    content: map-get($flaticon_web-fonts-map, "health-insurance-1");
+}
+.flaticon-risk-management:before {
+    content: map-get($flaticon_web-fonts-map, "risk-management");
+}
+.flaticon-rupee:before {
+    content: map-get($flaticon_web-fonts-map, "rupee");
+}
+.flaticon-tax:before {
+    content: map-get($flaticon_web-fonts-map, "tax");
+}
+.flaticon-tax-1:before {
+    content: map-get($flaticon_web-fonts-map, "tax-1");
+}
+.flaticon-retirement:before {
+    content: map-get($flaticon_web-fonts-map, "retirement");
+}
+.flaticon-retirement-1:before {
+    content: map-get($flaticon_web-fonts-map, "retirement-1");
+}
+.flaticon-portfolio:before {
+    content: map-get($flaticon_web-fonts-map, "portfolio");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon_web-fonts-map, "briefcase");
+}
+.flaticon-investment:before {
+    content: map-get($flaticon_web-fonts-map, "investment");
+}
+.flaticon-profit:before {
+    content: map-get($flaticon_web-fonts-map, "profit");
+}
+.flaticon-graph:before {
+    content: map-get($flaticon_web-fonts-map, "graph");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon_web-fonts-map, "placeholder");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon_web-fonts-map, "pin");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon_web-fonts-map, "phone-call");
+}
+.flaticon-call:before {
+    content: map-get($flaticon_web-fonts-map, "call");
+}
+.flaticon-phone-call-1:before {
+    content: map-get($flaticon_web-fonts-map, "phone-call-1");
+}
+.flaticon-gps:before {
+    content: map-get($flaticon_web-fonts-map, "gps");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_web-fonts-map, "email");
+}
+.flaticon-email-1:before {
+    content: map-get($flaticon_web-fonts-map, "email-1");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon_web-fonts-map, "mail");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_web-fonts-map, "right-arrow");
+}
+.flaticon-right-arrow-1:before {
+    content: map-get($flaticon_web-fonts-map, "right-arrow-1");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon_web-fonts-map, "down-arrow");
+}
+.flaticon-downward-arrow:before {
+    content: map-get($flaticon_web-fonts-map, "downward-arrow");
+}
+.flaticon-right-arrow-2:before {
+    content: map-get($flaticon_web-fonts-map, "right-arrow-2");
+}

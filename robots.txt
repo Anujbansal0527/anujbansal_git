@@ -1,0 +1,61 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# OpenAI - ChatGPT Search
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# OpenAI - Model Training
+User-agent: GPTBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# OpenAI - User-initiated requests
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Google - Gemini
+User-agent: Google-Extended
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Anthropic - Claude
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Apple
+User-agent: Applebot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.redvisiontechnologies.com/sitemap.xml

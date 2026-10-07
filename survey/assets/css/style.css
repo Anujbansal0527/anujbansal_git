@@ -1,0 +1,410 @@
+* {
+    font-family: Inter !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.survey-header {
+background: linear-gradient(45deg, #f00000, #ac0909);
+padding: 10px 0;
+position: relative;
+}
+
+.survey-header img {
+    width: 202px;
+    position: relative;
+    z-index: 9;
+}
+.survey-top .title {
+    text-align: center;
+    padding: 30px 0 10px 0;
+    color: #f00000;
+    font-weight: 700;
+}
+
+.survey-area-form {
+    display: none;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+.survey-area-form p {
+    margin-bottom: 5px;
+}
+
+.survey-area-form.show-form {
+    display: block;
+}
+
+.survey-img {
+    position: relative;
+    margin-top: 30px;
+}
+/* .survey-img::after {
+content: "";
+position: absolute;
+background: #433f3fb5;
+width: 100%;
+height: 101%;
+top: 0;
+left: 0;
+transform: translateY(-1%);
+} */
+.survey-img img {
+filter: blur(7px);
+position: relative;
+opacity: 0.4;
+width: 100%;
+}
+
+.survey-img.show-img img {
+    filter: none;
+    opacity: 1;
+}
+
+#viewResult {
+    background: #f00000;
+    border: 1px solid #f00000;
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+.result-btn {
+position: absolute;
+top: 45%;
+left: 0;
+right: 0;
+z-index: 9;
+}
+
+.success,
+#mail-status p {
+    padding: 5px 10px;
+    color: #1d211d;
+    font-size: 30px;
+    text-align: center;
+    background: transparent;
+    border: none;
+}
+
+.survey-area-form .form-check {
+display: flex;
+margin-bottom: 5px;
+position: relative;
+padding: 0;
+}
+
+.survey-area-form .radio-group .form-check-label {
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.survey-area-form input[type=checkbox],
+.survey-area-form input[type=radio] {
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: #555;
+}
+
+.survey-area-form .form-check-input:checked {
+    background-color: #f00000;
+    border-color: #f00000;
+}
+
+.survey-area-form .btn-primary {
+    background: #f00000;
+    border: 1px solid #f00000;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-primary {
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #f00000;
+}
+
+#mail-status {
+color: #1d211d;
+text-align: center;
+font-size: 26px;
+padding: 25px 0 5px 0;
+font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.error {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #f00000;
+    font-size: 14px;
+}
+
+/* Step Form */
+
+.form-step {
+    display: none;
+}
+
+.form-step.form-step-active {
+    display: block;
+}
+
+.btn {
+    display: block;
+    text-align: right;
+}
+
+.btn-group {
+    text-align: right;
+    display: block;
+}
+
+.btn-group .btn-primary {
+    margin: 0 10px;
+}
+
+.progressbar {
+    display: flex;
+    height: 10px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.progress {
+    display: flex;
+    height: 10px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #f00000;
+    border-radius: .25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 0%;
+}
+
+.btn:disabled {
+    background: #ddd;
+    border-color: #ddd;
+    color: #000;
+}
+
+/* .survey-area-form input[type=checkbox], .survey-area-form input[type=radio] {
+width: 250px;
+height: 40px;
+padding: 0;
+margin: 0;
+vertical-align: middle;
+box-shadow: none !important;
+outline: none !important;
+border-color: #555;
+background: #ddd;
+border-radius: 50px;
+border: none;
+}
+.survey-area-form input:checked[type=checkbox], .survey-area-form input:checked[type=radio] {
+background: #f00000;
+}
+.survey-area-form .radio-group .form-check-label {
+line-height: 20px;
+padding-left: 10px;
+position: absolute;
+left: 80px;
+right: 0;
+text-align: center;
+display: flex;
+justify-content: left;
+align-items: center;
+height: 40px;
+color: #000;
+width: 200px;
+}
+.survey-area-form input:checked[type=checkbox] + .form-check-label, .survey-area-form input:checked[type=radio] + .form-check-label {
+color: #fff;
+} */
+
+/*RADIO*/
+
+.survey-area-form .radio {
+display: grid;
+position: relative;
+padding-left: 35px;
+margin-bottom: 5px;
+cursor: pointer;
+font-size: 16px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+min-width: 465px;
+height: 48px;
+padding: 6px 20px;
+line-height: 20px;
+align-items:center;
+}
+
+.survey-area-form .radio input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+}
+
+.survey-area-form .checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 48px;
+width: 100%;
+border-radius: 30px;
+border: 2px solid #d2d2d2;
+}
+.survey-area-form .radio em {
+font-style: normal;
+vertical-align: middle;
+padding: 0px 10px 0 15px;
+line-height: 14px;
+display: block;
+text-align: center;
+}
+
+.survey-area-form .radio:hover input ~ .checkmark {
+border: 2px solid #f00000;
+}
+
+.survey-area-form .radio input:checked ~ .checkmark {
+background-color: #f00000;
+border: 2px solid #f00000;
+}
+.survey-area-form .radio input:checked ~ em {
+z-index: 9999;
+color: #fff;
+}
+.response-body {
+background: #f1efef;
+justify-content: center;
+align-items: center;
+height: 100vh;
+display: none;
+}
+.response-body.show {
+display: flex;
+}
+
+.response-box {
+text-align: center;
+background: #fff;
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0 10px 15px 0 #0000001c;
+}
+.response-box .text {
+margin: 30px 10px 10px 10px;
+}
+.response-box .text p {
+margin-bottom: 0px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    height: 50px;
+    outline: none;
+    box-shadow: none !important;
+}
+.form-control:focus {
+    border-color: #f00000;
+}
+
+@media only screen and (max-width:767px){
+.survey-header {
+background: transparent;
+margin-bottom: 60px;
+}
+.survey-header::after {
+content: "";
+position: absolute;
+background-image: url(../images/header-shape1.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0% 100%;
+width: 100%;
+height: 150px;
+top: 0;
+left: 0;
+}
+.survey-area-form .radio {
+min-width: 100%;
+}
+.form-step h4 {
+font-size: 20px;
+line-height: 24px;
+}
+.survey-top{
+text-align: center;
+}
+.survey-top .title {
+    width: 90%;
+    margin: 0 auto;
+}
+.survey-header img {
+width: 158px;
+}
+.btn {
+text-align: center;
+}
+.btn-group {
+text-align: center;
+}
+
+.response-box {
+padding: 30px 10px;
+width: 85%;
+}
+.response-box .icon img {
+width: 100px;
+}
+.survey-result-mobile{
+    display: block;
+}
+.survey-result-desktop{
+    display:none;
+}
+#mail-status {
+    font-size: 24px;
+    padding: 30px 0 0 0;
+    line-height: 30px;
+}
+}
+
+@media only screen and (min-width:768px){
+    .survey-result-mobile{
+        display: none;
+    }
+    .survey-result-desktop{
+        display: block;
+    }
+}

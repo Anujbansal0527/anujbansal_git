@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+.grids-sm-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1300px;
+}
+
+.rvba-banner .banner-text {
+  padding-top: 50px;
+}
+
+.rvba-banner::after {
+  width: 28%;
+  right: calc(1400px - 1150px);
+}
+.banner-statistics {
+  padding-left: 35px;
+}
+.banner-image::before {
+  width: 72%;
+}
+.banner-image img {
+  width: 65%;
+}
+}

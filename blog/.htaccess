@@ -1,0 +1,21 @@
+# Prevent mod_dir from adding a slash back to article URLs.
+# Keep the normal directory behavior for /blog and asset directories.
+<If "%{REQUEST_URI} =~ m#^/blog/[a-z0-9-]+/?$#">
+    DirectorySlash Off
+</If>
+Options -Indexes
+
+RewriteEngine On
+
+# Folder-based blog articles use URLs without a trailing slash.
+# Only match article folders that contain index.php.
+RewriteCond %{DOCUMENT_ROOT}/blog/$1/index.php -f
+RewriteRule ^([a-z0-9-]+)/$ /blog/$1 [R=301,L]
+
+# Serve the file directly so mod_dir does not add the slash again.
+RewriteCond %{DOCUMENT_ROOT}/blog/$1/index.php -f
+RewriteRule ^([a-z0-9-]+)$ /blog/$1/index.php [END]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [L]
